@@ -6,8 +6,6 @@ let newCoffeeDrink = new callApply.CoffeeDrink('light', 'Argentina');
 let newDog = new callApply.Dog('Fido', 'dauchsand', 'brown');
 let newDogArray = newDog.updateBio([1, 2, 3]);
 
-console.log('callApply.js: ', callApply);
-
 describe('call-apply.js', function() {
   describe('CoffeeDrink', function() {
     it('should return an object', function() {
